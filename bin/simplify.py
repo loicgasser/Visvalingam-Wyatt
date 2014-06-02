@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import json
-from classes import checkArguments as check
+from visvalingam.classes import checkArguments as check
 from visvalingam import VisvalingamSimplification
 
 input, output, threshold = check.getIOFilesThreshold();
