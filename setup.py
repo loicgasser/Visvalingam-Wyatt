@@ -15,7 +15,8 @@ setup(
     maintainer_email='mathieu@matael.org',
     license='MIT',
     url='http://milkbread.github.io/Visvalingam-Wyatt',
-    py_modules=['visvalingam'],
+    packages=['visvalingam'],
+    scripts=['bin/simplify.py'],
     classifiers=[
             'Programming Language :: Python',
             'Intended Audience :: Developers',
