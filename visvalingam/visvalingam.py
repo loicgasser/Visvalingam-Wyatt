@@ -24,9 +24,9 @@ class VisvalingamSimplification:
 		P = P_
 		nextP = nextP_
 		#calculate the triangle sites
-		a = math.sqrt(pow(prevP[0]-P[0],2)+pow(prevP[1]-P[1],2))
-		b = math.sqrt(pow(P[0]-nextP[0],2)+pow(P[1]-nextP[1],2))
-		c = math.sqrt(pow(nextP[0]-prevP[0],2)+pow(nextP[1]-prevP[1],2))
+		a = math.sqrt(pow(float(prevP[0])-float(P[0]),2)+pow(float(prevP[1])-float(P[1]),2))
+		b = math.sqrt(pow(float(P[0])-float(nextP[0]),2)+pow(float(P[1])-float(nextP[1]),2))
+		c = math.sqrt(pow(float(nextP[0])-float(prevP[0]),2)+pow(float(nextP[1])-float(prevP[1]),2))
 		#calculate the area of the triangle
 		s = (a+b+c)/2.0
 		area_0 = s*(s-a)*(s-b)*(s-c)
