@@ -6,12 +6,6 @@ Simple python implementation of a `famous algorithm`_ : the Visvalingam-Wyatt si
 
 .. _famous algorithm: https://hydra.hull.ac.uk/assets/hull:8343/content
 
-### Download the repository:
-
-```sh
-git clone https://github.com/milkbread/Visvalingam-Wyatt.git
-```
-
 Installation
 ------------
 
@@ -64,7 +58,7 @@ This is an exemplary workflow for tests :
 - *If needed* adjust the filenames within the ``example/index.html`` (lines 24 & 28)
 - evaluate the resulting data and try another threshold
 
-**Impatient to see some results? See the `example/index.html`_ here!**
+**Impatient to see some results?** See the `example/index.html`_ here!
 
 .. _example/index.html: http://milkbread.github.io/Visvalingam-Wyatt
 
