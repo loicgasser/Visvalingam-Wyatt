@@ -7,7 +7,7 @@ from setuptools import setup
 
 setup(
     name='visvalingam',
-    version='0.0.1',
+    version='0.1.0',
     description='Simple implementation of the Visvalingam-Wyatt algorithm',
     author = 'Ralf Klammer',
     author_email = 'ralf.klammer@tu-dersden.de',
