@@ -76,8 +76,8 @@ class VisvalingamSimplification:
 	def simplifyLineString(self, tolerance_):
 		tolerance = tolerance_
 		#it is enough to enrich the line once
-		if(self.enriched == False):
-			self.enrichLineString()
+                minArea_ = self.enrichPoints()
+                self.removeSmallestAreaIndex(minArea_)
 		#build the new line
 		newLine = []
 		for p in self.line:
