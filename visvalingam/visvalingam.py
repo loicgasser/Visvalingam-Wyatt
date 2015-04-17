@@ -83,7 +83,7 @@ class VisvalingamSimplification:
         for p in self.line:
             if(len(p) > 2):
                 if(p[2] > tolerance):
-                    newLine.append(p)
+                    newLine.append(p[0:2])
             else:
                 newLine.append(p)
         return newLine
